@@ -1,0 +1,9 @@
+language: java
+jdk:
+  - oraclejdk17
+
+#script:
+#  - "mvn clean jacoco:prepare-agent install jacoco:report"
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash -t $CODECOV_TOKEN)
