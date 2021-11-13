@@ -1,6 +1,6 @@
 language: java
-#jdk:
-#  - oraclejdk17
+jdk:
+  - oraclejdk17
 #
 #script:
 #  - "mvn clean jacoco:prepare-agent install jacoco:report"
